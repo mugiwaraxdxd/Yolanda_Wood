@@ -1,0 +1,121 @@
+nav{
+    padding: 0 100px;
+    height: 66px;
+}
+nav img{
+    width: 133px;
+    height: 31px;
+}
+
+nav .nav-items .nav-item, nav .nav-items h3{
+    font-size: 16px;
+}
+nav .nav-items h3{
+    margin-right: 60px;
+}
+nav .nav-items .nav-item span img{
+    display: inline;
+    width: 10px;
+    height: 10px;
+    margin-right: 35px;
+}
+nav .nav-items img{
+    width: 20px;
+    margin-left: 2 7px;
+}
+.header-text{
+    margin-left: 100px;
+    height: 108px;
+    border-left: 14px solid var(--rectangles);
+    font-size: 70px;
+}
+header section{
+    height: 448px;
+    width: 100%;
+}
+.body-first-text{
+    margin-left: 50px;
+    max-width: 560px;
+    font-size: 13px;
+    margin-bottom: 120px;
+}
+.libros{
+    position: absolute;
+    right: 0;
+    height: 458px;
+    min-width: auto;
+}
+.body-title{
+    border-left:12px solid var(--rectangles);
+    height: 65px;
+    font-size: 40px;
+}
+.body-students{
+    position: absolute;
+    right: 0;
+    height: 631px;
+    width: 579px;
+    transform: translateX(0);
+}
+.aniversario{
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.aniversario-logo img{
+    width: 112px;
+    margin-right: 40px;
+}
+.biblio-select{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.repo-select{
+    position: absolute;
+    left: 230px;
+    top: 50px;
+}
+.trabajos-select{
+    position: absolute;
+    left: 390px;
+    top: 50px;
+}
+.ul-select li a{
+    justify-content: space-between;
+    display: flex;
+    align-items: center; 
+    height: 43px;
+    min-width: 198px;
+    padding: 0 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+.ul-select li{
+    display: flex;
+    height: 43px;
+    width: 198px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--menu);
+    border-bottom: #C6AC7C 1px solid;
+    display: none;
+}
+.trabajos-select li{
+    width: 265px;
+}
+.trabajos-select li a{ 
+    width: 265px;
+}
+.trabajos-select .largo{
+    height: 65px;
+}
+.trabajos-select .largo a{
+    height: 65px;
+}
+.nav-item .principal{
+    margin-right: 100px;
+}
